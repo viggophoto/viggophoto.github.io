@@ -1,10 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-.text-time{
-	text-align: center;
-	
-}
+
 form {
 	max-width: 500px;
 	margin: 0 auto;
@@ -141,6 +138,27 @@ h1, h2, h3 {
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
+}
+.overlay-text1 {
+	font-size: 1.3rem;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 300;
+	color: #5c5c5c;
+	left: 45%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hovereffect:hover .overlay-text1 {
+	opacity: 1;
+  filter: alpha(opacity=100);
 }
 .hovereffect:hover .overlay-text {
 	opacity: 1;
