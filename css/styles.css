@@ -123,8 +123,8 @@ h1, h2, h3 {
 	font-size: 1.3rem;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
-	color: #000;
-	left: 50%;
+	color: #5c5c5c;
+	left: 45%;
 	position: absolute;
 	top: 50%;
 	width: 100%;
@@ -155,7 +155,7 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0;
+  opacity: 0.2;
   filter: alpha(opacity=0);
 }
 .page-nav {
@@ -169,8 +169,4 @@ h1, h2, h3 {
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
-}
-img {
-    width: 100%;
-    vertical-align: middle;
 }
