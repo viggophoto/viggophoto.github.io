@@ -139,7 +139,7 @@ h1, h2, h3 {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
-.hovereffect .overlay-text1 {
+.overlay-text1 {
 	font-size: 1.3rem;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
@@ -156,7 +156,10 @@ h1, h2, h3 {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
-
+.hovereffect:hover .overlay-text1 {
+	opacity: 1;
+  filter: alpha(opacity=100);
+}
 .hovereffect:hover .overlay-text {
 	opacity: 1;
   filter: alpha(opacity=100);
