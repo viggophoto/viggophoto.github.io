@@ -132,9 +132,9 @@ h1, h2, h3 {
 
 .hovereffect .overlay-text {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
-	color: #5c5c5c;
+	font-family: sans-serif;
+	font-weight: 350;
+	color: #333333;
 	left: 50%;
 	position: absolute;
 	top: 50%;
@@ -148,13 +148,13 @@ h1, h2, h3 {
   transition: opacity 0.35s, transform 0.35s;
 }
 .overlay-text1 {
-	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
+	font-size: 0.9rem;
+	font-family: sans-serif;
 	font-weight: 300;
-	color: #5c5c5c;
-	left: 45%;
+	color: #333333;
+	left: 50%;
 	position: absolute;
-	bottom: 0;
+	top: 64%;
 	width: 100%;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -186,18 +186,32 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
   filter: alpha(opacity=0);
 }
 .page-nav {
 	width: 50%;
+	padding-bottom: 20px;
 	margin: 0 auto;
 	text-align: center;
 }
 .page-nav a,span {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
-	margin: 0 10px;
-	color: #000;
+	/*font-family: 'Crimson Text', sans-serif;*/
+	font-weight: 350;
+	margin: 0 15px;
+	color: #333;
+	border: 1px solid #333;
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #333;
+    MARGIN-RIGHT: 2px;
+    PADDING-TOP: 2px;
+    TEXT-DECORATION: none;
+    border-radius: 2px;
+}
+.page-nav a,span:hover{
+	COLOR: #fff;
+    background-color: #202020;
 }
