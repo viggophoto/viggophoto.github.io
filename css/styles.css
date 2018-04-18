@@ -53,6 +53,11 @@ input:focus, textarea:focus {
 	line-height: 2;
 	color: #555;
 }
+.portfolio-content p {
+	font-weight: 300;
+    line-height: 28px;
+    argin: 22px 0 22px 0;
+}
 
 .portfolio-content a {
 	color: #333;
