@@ -17,6 +17,7 @@ form {
 img{
 	vertical-align: middle;
     width: 100%;
+    margin: 2px 0 10px 0;
 }
 button {
   color: #777;
