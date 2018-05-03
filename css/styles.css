@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', "Microsoft Yahei";
 }
 
 form {
@@ -7,6 +7,9 @@ form {
 	margin: 0 auto;
 }
 .nav-link {
+	font-family: -apple-system, BlinkMacSystemFont,
+	"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+	"Helvetica Neue", sans-serif;
     padding-right: .5rem;
     padding-left: .5rem;
     margin: 0 .6rem;
@@ -73,7 +76,7 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
+	font-family: 'Open Sans', "Microsoft Yahei";
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
@@ -138,7 +141,8 @@ h1, h2, h3 {
 
 .hovereffect .overlay-text {
 	font-size: 1.3rem;
-	font-family: sans-serif;
+	font-family: 'Open Sans', "Microsoft Yahei";
+
 	font-weight: 350;
 	color: #333333;
 	left: 50%;
@@ -155,7 +159,8 @@ h1, h2, h3 {
 }
 .overlay-text1 {
 	font-size: 0.9rem;
-	font-family: sans-serif;
+	font-family: 'Open Sans', "Microsoft Yahei";
+
 	font-weight: 300;
 	color: #333333;
 	left: 50%;
@@ -204,6 +209,8 @@ h1, h2, h3 {
 .page-nav a,span {
 	font-size: 1.3rem;
 	/*font-family: 'Crimson Text', sans-serif;*/
+	font-family: 'Open Sans', "Microsoft Yahei";
+
 	font-weight: 350;
 	margin: 0 15px;
 	color: #333;
